@@ -1,12 +1,11 @@
 import React, { useContext, useRef } from "react";
 import selectIcon from "../assets/select-icon.svg";
-import submitIcon from "../assets/submit-icon.svg";
 import { CryptoContext } from "./../context/CryptoContext";
 import Search from "./Search";
 
 const Filters = () => {
   const { setSortBy, setCurrency, clearSearch } = useContext(CryptoContext);
-  const currencyRef = useRef(null);
+  // const currencyRef = useRef(null);
 
   const handleSort = (e) => {
     let val = e.target.value;
