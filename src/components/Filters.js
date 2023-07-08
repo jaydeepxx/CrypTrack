@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext } from "react";
 import selectIcon from "../assets/select-icon.svg";
 import { CryptoContext } from "./../context/CryptoContext";
 import Search from "./Search";
